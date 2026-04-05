@@ -3,6 +3,10 @@ import os
 import re
 from typing import List
 
+
+# Fix for protobuf issues
+os.environ["PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION"] = "python"
+
 # LangChain imports
 from langchain_community.document_loaders import WebBaseLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
