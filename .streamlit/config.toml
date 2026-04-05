@@ -1,0 +1,9 @@
+# .streamlit/config.toml
+[server]
+maxUploadSize = 10
+
+[browser]
+gatherUsageStats = false
+
+[runner]
+install_uv = false
