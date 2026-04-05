@@ -1,12 +1,15 @@
-streamlit
-langchain-community
-langchain-text-splitters
-langchain-huggingface
-langchain-groq
-langchain-core
-chromadb<0.5.0
-sentence-transformers
-beautifulsoup4
-requests
-numpy
+streamlit==1.35.0
+langchain-community==0.2.16
+langchain-text-splitters==0.2.2
+langchain-huggingface==0.0.3
+langchain-groq==0.1.9
+langchain-core==0.2.38
+chromadb==0.4.24
+sentence-transformers==2.2.2
+beautifulsoup4==4.12.3
+requests==2.31.0
+numpy==1.26.4
 protobuf==3.20.3
+pydantic==1.10.13
+torch==2.1.0
+torchvision==0.16.0  # Actually needed for some transformers models
