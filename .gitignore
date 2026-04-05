@@ -1,3 +1,6 @@
+# UV lock file (not needed for deployment)
+uv.lock
+
 # Python
 __pycache__/
 *.pyc
@@ -15,6 +18,7 @@ venv/
 env/
 ENV/
 .venv/
+uv.lock
 
 # IDE
 .vscode/
