@@ -11,5 +11,6 @@ requests==2.31.0
 numpy==1.26.4
 protobuf==3.20.3
 pydantic==1.10.13
+
 torch==2.1.0
-torchvision==0.16.0  # Actually needed for some transformers models
+torchvision==0.16.0
