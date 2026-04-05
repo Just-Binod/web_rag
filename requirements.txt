@@ -1,18 +1,26 @@
-
+# Core
 streamlit==1.35.0
 numpy==1.24.3
 chromadb==0.4.22
-sentence-transformers==2.2.2
+
+# LangChain ecosystem - compatible versions
 langchain==0.1.0
 langchain-community==0.0.10
 langchain-text-splitters==0.0.1
 langchain-huggingface==0.0.3
 langchain-groq==0.1.0
 langchain-core==0.1.52
+
+# Updated to satisfy langchain-huggingface requirement
+sentence-transformers==2.6.1
+
+# Other dependencies
 beautifulsoup4==4.12.3
 requests==2.31.0
 protobuf==3.20.3
 pydantic==1.10.13
 
+# PyTorch (CPU version for Streamlit Cloud)
+--extra-index-url https://download.pytorch.org/whl/cpu
 torch==2.0.1
 torchvision==0.15.2
